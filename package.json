@@ -1,0 +1,25 @@
+{
+  "name": "url-test",
+  "version": "1.0.0",
+  "description": "For demonstrating a URL truncation problem.",
+  "main": "home.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "babel-loader": "^8.1.0",
+    "extract-loader": "^5.1.0",
+    "file-loader": "^6.1.1",
+    "handlebars": "^4.7.6",
+    "handlebars-loader": "^1.7.1",
+    "html-loader": "^1.3.2",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development"
+  },
+  "author": "David Leangen",
+  "license": "ISC"
+}
